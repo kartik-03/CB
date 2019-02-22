@@ -1,6 +1,8 @@
 version: 0.2
 phases:
  install:
-  - pip install boto3
+  commands:
+   - pip install boto3
  build:
-  - python firstbuild.py
+  commands:
+   - python firstbuild.py
