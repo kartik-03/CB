@@ -3,4 +3,4 @@ phases:
  install:
   - pip install boto3
  build:
-  python firstbuild.py
+  - python firstbuild.py
